@@ -115,9 +115,7 @@
 \begin{minted}{ocaml}
           type t
           type store = t
-          
           val create : unit -> t
-          
           module Ref : sig
             type 'a t
             val make : store -> 'a -> 'a t
